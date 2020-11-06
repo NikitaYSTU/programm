@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h3>Форма 1</h3>
+        <form>
+		<table>
+		<tr>
+            <td>Фамилия</td><td>=</td><td><input type="text" "Фамилия" /></td>
+			</tr>
+			<tr>
+            <td>Имя</td><td>=</td><td><input type="text" "Имя" /></td>
+			</tr>
+            <td>Отчество</td><td>=</td><td><input type="text" "Отчество" /></td>
+            <td><input type="submit" value="Ок" /></td>
+			</table>
+        </form>
+        
+        <h3>Форма 2</h3>
+        <form>
+            <input type="number" />
+            <p>
+                <input type="checkbox" />
+                <span>Да?</span>
+            </p>
+            <input type="submit" value="Ок" />
+        </form>
+        
+        <h3>Регистрация</h3>
+        <form>
+            <p>
+                <span>Пол: </span>
+                <input name="sex" type="radio" required />
+                <span>Мужской</span>
+                <input name="sex" type="radio" required />
+                <span>Женский</span>
+                <input name="sex" type="radio" required />
+                <span>Не скажу</span>
+            </p>
+			<table>
+			<tr>
+            <td>Фамилия:</td><td> <input type="text" required minlength="3" /></td>
+			</tr>
+			<tr>
+            <td>Имя:</td><td> <input type="text" required minlength="3" /></td>
+			</tr>
+			<tr>
+            <td>Отчество:</td><td> <input type="text" minlength="3" /></td>
+			</tr>
+			<tr>
+            <td>Возраст:</td><td> <input type="number" required /><t/d>
+			</tr>
+			<tr>
+            <td>Телефон:</td><td> <input type="tel" placeholder="+7 (9хх) ххх-хх-хх" required /></td>
+			</tr>
+			<tr>
+            <td>E-mail:</td><td> <input type="email" placeholder="example@test.com" required /></td>
+			</tr>
+			<tr>
+                <span><td>Группа:</span></td>
+                <td><select required>
+                    <option>ЭПИ-11</option>
+                    <option>ЭИС-13</option>
+					<option>ЭИC-14</option>
+					<option>ЭИC-15</option>
+					<option>ЭИC-16</option>
+                </select></td>
+				</tr> 
+				<tr>
+            <td>Пароль:</td><td> <input type="password" required /></td>
+			</tr>
+			<tr>
+            <td>Повторите пароль:</td><td> <input type="password" required /></td>
+			</tr>
+			</table>
+            <p>
+                <input type="checkbox" required />
+                <span>Учусь платно</span>
+            </p>
+            <input type="submit" value="Зарегистрироваться" />
+        </form>
+    </body>
+</html>
